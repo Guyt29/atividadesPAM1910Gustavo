@@ -1,11 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Interruptor from './components/Interruptor';
+import Emoji from './components/Emoji';
+import NomeUsuario from './components/NomeUsuario';
+import OcultarSenha from './components/OcultarSenha';
+import Curtidas from './components/Curtidas';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Curtidas/>
     </View>
   );
 }
